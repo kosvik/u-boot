@@ -453,6 +453,10 @@ static ulong rk3328_mmc_get_clk(struct rk3328_cru *cru, uint clk_id)
 	case SCLK_EMMC:
 		con_id = 32;
 		break;
+	case HCLK_SDMMC_EXT:
+	case SCLK_SDMMC_EXT:
+		con_id = 43;
+		break;	
 	default:
 		return -EINVAL;
 	}
@@ -481,6 +485,9 @@ static ulong rk3328_mmc_set_clk(struct rk3328_cru *cru,
 	case SCLK_EMMC:
 		con_id = 32;
 		break;
+	case HCLK_SDMMC_EXT:
+	case SCLK_SDMMC_EXT:
+		con_id = 43;	
 	default:
 		return -EINVAL;
 	}
