@@ -1,0 +1,15 @@
+if TARGET_Z28PRO_RK3328
+
+config SYS_BOARD
+	default "z28pro_rk3328"
+
+config SYS_VENDOR
+	default "rockchip"
+
+config SYS_CONFIG_NAME
+	default "z28pro_rk3328"
+
+config BOARD_SPECIFIC_OPTIONS # dummy
+	def_bool y
+
+endif

@@ -1,0 +1,6 @@
+Z20PRO-RK3328
+M:      Slon
+S:      n/a
+F:      board/rockchip/z28pro_rk3328
+F:      include/configs/z28pro_rk3328.h
+F:      configs/z28pro-rk3328_defconfig

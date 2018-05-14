@@ -1,0 +1,15 @@
+Introduction
+============
+
+Z28 Pro key features:
+* CPU: RK3328 ARMv8 64bit quad-core Cortex-A53
+* DRAM: 2GB
+* eMMC: 16Gb
+* SD/MMC: support SD 3.0, MMC 4.51
+* USB: USB2.0 EHCI host port *2, USb 3.0 *1
+* Display: HDMI
+* regulator: pwm regulator for CPU B/L
+* PMIC: rk805
+* debug console: UART2
+
+
