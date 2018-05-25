@@ -8,7 +8,7 @@
 
 /dts-v1/;
 #include "rk3328.dtsi"
-#include "rk3328-sdram-lpddr3-1600.dtsi"
+#include "rk3328-sdram-lpddr3-666.dtsi"
 
 / {
 	model = "Alfawise Z28 Pro";
